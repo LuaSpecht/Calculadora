@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="index.js"></script>
 </head>
 <body>
     <div class="fundo">
@@ -39,13 +40,13 @@
                     <td rowspan="2"><button class="botão" style="height:106px" onclick="calcular()">=</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button class="botão" style="width:106px">0</button></td>
+                    <td colspan="2"><button class="botão" onclick="insert('0')" style="width:106px">0</button></td>
                     <td><button class="botão" onclick="insert('.')">.</button></td>
                 </tr>
             </table>
         </div>
     </div>
-    <script src="index.js"></script>
+    
 
 </body>
 </html>
